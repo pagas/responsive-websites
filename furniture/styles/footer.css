@@ -1,0 +1,32 @@
+footer {
+    width: 50%;
+    height: 5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: .1rem solid #ccc;
+}
+
+.copyright {
+    font-size: 1.6rem;
+    color: var(--theme-dark-color)
+}
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+.brand i {
+    font-size: 2rem;
+    color: var(--theme-color);
+    margin-right: 1.5rem;
+}
+
+.brand h1 {
+    font-family: "Kenia", cursive;
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    color: var(--theme-dark-color);
+}
